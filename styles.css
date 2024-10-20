@@ -58,6 +58,19 @@ section {
     text-transform: uppercase; /* Make text uppercase */
 }
 
+.category {
+    margin-bottom: 20px;
+}
+
+.category h3 {
+    margin: 10px 0; /* Space between category title and list */
+}
+
+.category ul {
+    list-style-type: disc;
+    margin-left: 20px; /* Indent list */
+}
+
 .product-review {
     margin-bottom: 20px;
     padding: 10px;
@@ -74,6 +87,10 @@ input[type="url"] {
     border: 1px solid #ddd;
 }
 
+.no-reviews {
+    color: #ff4d4d; /* Red text for no reviews message */
+}
+
 footer {
     background-color: #ff80a0; /* Light pink */
     color: white;
@@ -81,12 +98,11 @@ footer {
     padding: 20px;
 }
 
-/* List Styles for Extended Description */
-#extended-description ul {
-    list-style-type: disc;
-    margin-left: 20px; /* Indent list */
+.hidden {
+    display: none; /* Hide sections by default */
 }
 
-#extended-description li {
-    margin-bottom: 10px; /* Space between list items */
+/* Optional: Style for when sections are shown */
+.show {
+    display: block; /* Show section when needed */
 }
