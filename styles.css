@@ -1,0 +1,88 @@
+<!-- CSS codes -->
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+header {
+    background-color: #ff80a0; /* Light pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    margin: 10px 0;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background for sections */
+}
+#description, #extended-description {
+    background-color: #fff; /* White background for descriptions */
+    border: 1px solid #ff80a0; /* Light pink border */
+}
+.product-review {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+input[type="url"] {
+    margin-top: 10px;
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+footer {
+    background-color: #ff80a0; /* Light pink */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff80a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Active Link Highlighting */
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* List Styles for Extended Description */
+#extended-description ul {
+    list-style-type: disc;
+    margin-left: 20px; /* Indent list */
+}
+#extended-description li {
+    margin-bottom: 10px; /* Space between list items */
+}
